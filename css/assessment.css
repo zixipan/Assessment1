@@ -32,6 +32,8 @@ div{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(5,auto);
+  justify-content: center;
+  align-items: center;
 }
 
 @media all and (min-width: 800px){
@@ -39,8 +41,6 @@ div{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(3,auto);
-    justify-content: center;
-    align-items: center;
   }
 
   div:nth-child(odd){
